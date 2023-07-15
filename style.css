@@ -1,16 +1,16 @@
-/* *{
+*{
     margin: 0;
-} */
+}
 .section-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
+    padding: 20px;
+    margin-top: 20px;
 }
 .content{
-   /* padding: 50px; */
-   /* gap: 10px; */
-   
+   padding: 50px;   
 }
 .header{
     color: var(--gray-1, #333);
@@ -35,4 +35,10 @@
     background:#333;
     color: white;
     margin-top: 20px;
+}
+
+/* Responsive section */
+
+@media screen and (max-width) {
+    
 }
